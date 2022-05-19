@@ -1,5 +1,5 @@
 package me.karunarathne.Collections;
 
-public class MyBinarySearchTree <T> {
+public class BinarySearchTree<T> {
     
 }
