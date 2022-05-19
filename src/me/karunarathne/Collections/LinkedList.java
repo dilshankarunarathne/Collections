@@ -4,5 +4,7 @@ public class LinkedList <T> {
 
     int length ;
 
-    
+    public void addItem () {
+        
+    }
 }
