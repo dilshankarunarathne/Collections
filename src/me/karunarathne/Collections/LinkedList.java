@@ -5,7 +5,7 @@ public class LinkedList <T> {
     public int length ;
 
     public void addItem (T item) {
-        Node newNode = new Node(item) ;
+        current = new Node(item, current) ;
 
     }
 }
