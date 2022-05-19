@@ -6,15 +6,17 @@ public class LinkedList <T> {
 
     public void addItem (T item) {
         Node newNode = new Node(item) ;
+
     }
 }
 
 class Node <T> {
-    T current ;
+    private T current ;
     Node next ;
     Node prev ;
 
-    public Node(T current) {
+    public Node(T current, Node prev) {
         this.current = current;
+        
     }
 }
