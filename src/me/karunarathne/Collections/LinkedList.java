@@ -8,12 +8,11 @@ public class LinkedList <T> {
         current = new Node(item, current) ;
         length ++ ;
     }
-    
+
     public Object getItemAtLast() {
         return null;
     }
-
-    @Override
+    
     public void removeItem() {
 
     }
