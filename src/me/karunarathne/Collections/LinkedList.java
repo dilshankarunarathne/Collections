@@ -9,6 +9,6 @@ public class LinkedList <T> {
     }
 }
 
-class Node {
-    
+class Node <T> {
+
 }
