@@ -4,9 +4,20 @@ public class LinkedList <T> implements LinkedListI {
     private Node current ;
     public int length ;
 
+    @Override
     public void addItem (T item) {
         current = new Node(item, current) ;
         length ++ ;
+    }
+    
+    @Override
+    public Object getItemAtLast() {
+        return null;
+    }
+
+    @Override
+    public void removeItem() {
+
     }
 }
 
