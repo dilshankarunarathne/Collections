@@ -8,8 +8,7 @@ public class LinkedList <T> {
         current = new Node(item, current) ;
         length ++ ;
     }
-
-    @Override
+    
     public Object getItemAtLast() {
         return null;
     }
