@@ -11,7 +11,7 @@ public class LinkedList <T> {
 
 class Node <T> {
     private T current ;
-    Node next ;
+    private Node next ;
     Node prev ;
 
     public Node(T current, Node prev) {
