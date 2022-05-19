@@ -1,10 +1,10 @@
 package me.karunarathne.Collections;
 
-public class MyArrayStack <T> {
+public class ArrayStack<T> {
     private T [] data;
     private int pointer;
 
-    public MyArrayStack () {
+    public ArrayStack() {
         data = (T []) new Object [1000];
         pointer = 0;
     }
