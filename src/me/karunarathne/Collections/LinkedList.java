@@ -9,10 +9,10 @@ public class LinkedList <T> {
         length ++ ;
     }
 
-    public Object getItemAtLast() {
-        return null;
+    public T getItemAtLast() {
+        return (T) current.getCurrent() ;
     }
-    
+
     public void removeItem() {
 
     }
@@ -27,5 +27,9 @@ class Node <T> {
         this.current = current;
         this.prev = prev ;
         next = null ;
+    }
+
+    public T getCurrent() {
+        return current;
     }
 }
