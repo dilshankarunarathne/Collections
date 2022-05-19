@@ -1,4 +1,4 @@
 package me.karunarathne.Collections;
 
-public class LinkedList {
+public class LinkedList <T> {
 }
