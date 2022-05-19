@@ -17,6 +17,6 @@ class Node <T> {
 
     public Node(T current, Node prev) {
         this.current = current;
-        
+        this.prev = prev ;
     }
 }
