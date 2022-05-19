@@ -13,4 +13,8 @@ class Node <T> {
     T current ;
     Node next ;
     Node prev ;
+
+    public Node(T current) {
+        this.current = current;
+    }
 }
