@@ -1,6 +1,6 @@
 package me.karunarathne.Collections;
 
-public class LinkedList <T> {
+public class LinkedList <T> implements LinkedListI {
     private Node current ;
     public int length ;
 
