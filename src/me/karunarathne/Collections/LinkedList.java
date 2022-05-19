@@ -12,7 +12,7 @@ public class LinkedList <T> {
 class Node <T> {
     private T current ;
     private Node next ;
-    Node prev ;
+    private Node prev ;
 
     public Node(T current, Node prev) {
         this.current = current;
