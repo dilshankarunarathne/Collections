@@ -2,11 +2,11 @@ package me.karunarathne.Collections;
 
 import java.util.ArrayList;
 
-public class MyListStack <T> {
+public class ListStack<T> {
     private ArrayList <T> data;
     private int pointer;
 
-    public MyListStack () {
+    public ListStack() {
         data = new ArrayList <T> ();
         pointer = 0;
     }
