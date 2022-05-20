@@ -6,6 +6,7 @@ public class LinkedList <T> {
 
     public void addItem (T item) {
         current = new Node(item, current) ;
+        current.prev = current ;
         length ++ ;
     }
 
@@ -21,7 +22,7 @@ public class LinkedList <T> {
 class Node <T> {
     private T current ;
     private Node next ;
-    private Node prev ;
+    public Node prev ;
 
     public Node(T current, Node prev) {
         this.current = current;
